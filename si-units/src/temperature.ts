@@ -15,48 +15,6 @@ export function kelvinToCelsius(kelvin: number): number {
   return kelvin - 273.15;
 }
 
-/**
- * Convert Fahrenheit to Kelvin
- */
-export function fahrenheitToKelvin(fahrenheit: number): number {
-  return (fahrenheit - 32) * 5/9 + 273.15;
-}
-
-/**
- * Convert Kelvin to Fahrenheit
- */
-export function kelvinToFahrenheit(kelvin: number): number {
-  return (kelvin - 273.15) * 9/5 + 32;
-}
-
-/**
- * Convert Celsius to Fahrenheit
- */
-export function celsiusToFahrenheit(celsius: number): number {
-  return celsius * 9/5 + 32;
-}
-
-/**
- * Convert Fahrenheit to Celsius
- */
-export function fahrenheitToCelsius(fahrenheit: number): number {
-  return (fahrenheit - 32) * 5/9;
-}
-
-/**
- * Convert Rankine to Kelvin
- */
-export function rankineToKelvin(rankine: number): number {
-  return rankine * 5/9;
-}
-
-/**
- * Convert Kelvin to Rankine
- */
-export function kelvinToRankine(kelvin: number): number {
-  return kelvin * 9/5;
-}
-
 // Temperature constants (in Kelvin)
 const absoluteZero = 0;
 const freezingPoint = 273.15;
@@ -77,12 +35,6 @@ export {
 export default {
   celsiusToKelvin,
   kelvinToCelsius,
-  fahrenheitToKelvin,
-  kelvinToFahrenheit,
-  celsiusToFahrenheit,
-  fahrenheitToCelsius,
-  rankineToKelvin,
-  kelvinToRankine,
   absoluteZero,
   freezingPoint,
   boilingPoint,
