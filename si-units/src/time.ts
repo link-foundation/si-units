@@ -23,7 +23,6 @@ const century = 100 * year;
 const millennium = 1000 * year;
 
 // Additional time units
-const fortnight = 14 * day;
 const quarter = 3 * month;
 const semester = 6 * month;
 const leapYear = 366 * day;
@@ -55,7 +54,6 @@ export {
   millennium,
   
   // Additional units
-  fortnight,
   quarter,
   semester,
   leapYear,
@@ -81,7 +79,6 @@ export default {
   decade,
   century,
   millennium,
-  fortnight,
   quarter,
   semester,
   leapYear,

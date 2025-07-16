@@ -26,26 +26,6 @@ const Mm = megameter;
 const gigameter = meter * 1_000_000_000;
 const Gm = gigameter;
 
-// Imperial units (approximate conversions)
-const inch = 0.0254 * meter;
-const in = inch;
-const foot = 12 * inch;
-const ft = foot;
-const yard = 3 * foot;
-const yd = yard;
-const mile = 5280 * foot;
-const mi = mile;
-const nauticalMile = 1852 * meter;
-const nmi = nauticalMile;
-
-// Astronomical units
-const astronomicalUnit = 149_597_870_700 * meter;
-const au = astronomicalUnit;
-const lightYear = 9_460_730_472_580_800 * meter;
-const ly = lightYear;
-const parsec = 3.0856775814913673e16 * meter;
-const pc = parsec;
-
 // Export all length units
 export {
   // Base unit
@@ -75,26 +55,6 @@ export {
   Mm,
   gigameter,
   Gm,
-  
-  // Imperial units
-  inch,
-  in,
-  foot,
-  ft,
-  yard,
-  yd,
-  mile,
-  mi,
-  nauticalMile,
-  nmi,
-  
-  // Astronomical units
-  astronomicalUnit,
-  au,
-  lightYear,
-  ly,
-  parsec,
-  pc,
 };
 
 // Default export for CommonJS compatibility
@@ -121,20 +81,4 @@ export default {
   Mm,
   gigameter,
   Gm,
-  inch,
-  in,
-  foot,
-  ft,
-  yard,
-  yd,
-  mile,
-  mi,
-  nauticalMile,
-  nmi,
-  astronomicalUnit,
-  au,
-  lightYear,
-  ly,
-  parsec,
-  pc,
 };

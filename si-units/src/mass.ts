@@ -24,18 +24,6 @@ const Mg = megagram;
 const gigagram = kilogram * 1_000_000_000;
 const Gg = gigagram;
 
-// Imperial units (approximate conversions)
-const ounce = 28.349523125 * gram;
-const oz = ounce;
-const pound = 16 * ounce;
-const lb = pound;
-const stone = 14 * pound;
-const st = stone;
-const ton = 2000 * pound;
-const shortTon = ton;
-const longTon = 2240 * pound;
-const imperialTon = longTon;
-
 // Atomic mass units
 const atomicMassUnit = 1.66053907e-27 * kilogram;
 const amu = atomicMassUnit;
@@ -70,18 +58,6 @@ export {
   gigagram,
   Gg,
   
-  // Imperial units
-  ounce,
-  oz,
-  pound,
-  lb,
-  stone,
-  st,
-  ton,
-  shortTon,
-  longTon,
-  imperialTon,
-  
   // Atomic mass units
   atomicMassUnit,
   amu,
@@ -111,16 +87,6 @@ export default {
   Mg,
   gigagram,
   Gg,
-  ounce,
-  oz,
-  pound,
-  lb,
-  stone,
-  st,
-  ton,
-  shortTon,
-  longTon,
-  imperialTon,
   atomicMassUnit,
   amu,
   dalton,

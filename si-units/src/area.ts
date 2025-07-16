@@ -22,25 +22,9 @@ const ha = hectare;
 const squareKilometer = squareMeter * 1_000_000;
 const km2 = squareKilometer;
 
-// Imperial units (approximate conversions)
-const squareInch = 0.00064516 * squareMeter;
-const in2 = squareInch;
-const squareFoot = 144 * squareInch;
-const ft2 = squareFoot;
-const squareYard = 9 * squareFoot;
-const yd2 = squareYard;
-const squareMile = 27878400 * squareFoot;
-const mi2 = squareMile;
-const acre = 43560 * squareFoot;
-const ac = acre;
-
 // Additional area units
 const barn = 1e-28 * squareMeter;
 const b = barn;
-const township = 36 * squareMile;
-const twp = township;
-const section = squareMile;
-const sec = section;
 
 // Export all area units
 export {
@@ -68,25 +52,9 @@ export {
   squareKilometer,
   km2,
   
-  // Imperial units
-  squareInch,
-  in2,
-  squareFoot,
-  ft2,
-  squareYard,
-  yd2,
-  squareMile,
-  mi2,
-  acre,
-  ac,
-  
   // Additional units
   barn,
   b,
-  township,
-  twp,
-  section,
-  sec,
 };
 
 // Default export for CommonJS compatibility
@@ -109,20 +77,6 @@ export default {
   ha,
   squareKilometer,
   km2,
-  squareInch,
-  in2,
-  squareFoot,
-  ft2,
-  squareYard,
-  yd2,
-  squareMile,
-  mi2,
-  acre,
-  ac,
   barn,
   b,
-  township,
-  twp,
-  section,
-  sec,
 };
